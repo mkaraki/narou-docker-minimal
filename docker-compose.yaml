@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  narourb:
+    image: ghcr.io/mkaraki/narou.rb:minimal
+    restart: always
+    ports:
+      - 8000:8000
+      - 8001:8001
+    volumes:
+      - ./noveldir:/opt/narou
