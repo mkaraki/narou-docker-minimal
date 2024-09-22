@@ -1,6 +1,6 @@
 FROM ruby:3
 
-RUN gem install narou -v '3.9.0'
+RUN gem install narou -v '3.9.1'
 
 WORKDIR /opt/narou
 
