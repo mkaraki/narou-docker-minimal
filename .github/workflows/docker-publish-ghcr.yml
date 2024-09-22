@@ -6,8 +6,6 @@ name: Docker Publish for ghcr.io
 # documentation.
 
 on:
-  schedule:
-    - cron: '44 23 * * *'
   push:
     branches: [ main, minimal ]
     # Publish semver tags as releases.
