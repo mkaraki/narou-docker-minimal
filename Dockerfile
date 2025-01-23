@@ -1,4 +1,4 @@
-FROM ruby:3
+FROM ruby:3.3.7
 
 RUN gem install narou -v '3.9.1'
 
